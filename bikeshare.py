@@ -13,6 +13,7 @@ https://stackoverflow.com/questions/45310254/fixed-digits-after-decimal-with-f-s
 https://stackoverflow.com/questions/209840/convert-two-lists-into-a-dictionary-in-python
 https://stackoverflow.com/questions/35523635/extract-values-in-pandas-value-counts/35523820
 https://stackoverflow.com/questions/49870868/using-click-commands-in-python
+This script was written by Vasileios Garyfallos on Dec 10th 2019.
 """
 
 
@@ -149,17 +150,17 @@ def time_stats(df):
           'travel...\n')
     start_time = time.time()
 
-    # display the most common month
+    # display the most common month for trips
     most_common_month = df['Month'].mode()[0]
     print('For the selected filter, the month with the most travels is: ' +
           str(months[most_common_month-1]).title() + '.')
 
-    # display the most common day of week
+    # display the most common day of week for trips
     most_common_day = df['Weekday'].mode()[0]
     print('For the selected filter, the most common day of the week is: ' +
           str(most_common_day) + '.')
 
-    # display the most common start hour
+    # display the most common start hour for trips
     most_common_hour = df['Start Hour'].mode()[0]
     print('For the selected filter, the most common start hour is: ' +
           str(most_common_hour) + '.')
