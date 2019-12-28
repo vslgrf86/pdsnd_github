@@ -1,15 +1,28 @@
 ### Date created
-Include the date you created this project and README file.
+Project creation date: 10/12/2019
+README file creation date: 28/12/2019
 
 ### Project Title
-Replace the Project Title
+Explore US Bikeshare Data
 
 ### Description
-Describe what your project is about and what it does
+In this project, you will write Python code to import US bike share data and answer interesting questions about it by computing descriptive statistics. You will also write a script that takes in raw input to create an interactive experience in the terminal to present these statistics.
 
 ### Files used
-Include the files used
+The required files for running this program are:
+
+washington.csv
+new_york_city.csv
+chicago.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+This program was written in Python (version 3.7.1) and relies on the following libraries:
 
+pandas==0.23.4 numpy==1.15.4 Click==7.0
+
+Stack Overflow Help:
+Stack Overflow
+https://stackoverflow.com/questions/45310254/fixed-digits-after-decimal-with-f-strings
+https://stackoverflow.com/questions/209840/convert-two-lists-into-a-dictionary-in-python
+https://stackoverflow.com/questions/35523635/extract-values-in-pandas-value-counts/35523820
+https://stackoverflow.com/questions/49870868/using-click-commands-in-python
