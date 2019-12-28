@@ -13,6 +13,7 @@ https://stackoverflow.com/questions/45310254/fixed-digits-after-decimal-with-f-s
 https://stackoverflow.com/questions/209840/convert-two-lists-into-a-dictionary-in-python
 https://stackoverflow.com/questions/35523635/extract-values-in-pandas-value-counts/35523820
 https://stackoverflow.com/questions/49870868/using-click-commands-in-python
+This script was written by Vasileios Garyfallos on Dec 10th 2019.
 """
 
 
